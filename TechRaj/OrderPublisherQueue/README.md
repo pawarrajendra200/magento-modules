@@ -14,7 +14,7 @@ TechRaj\OrderPublisherQueue module is work with RabbitMQ
 
 ## Install
 ### Add repository
-Repositry : composer config repositories.rajtech composer https://github.com/pawarrajendra200/magento-modules.git
+Repositry : composer config repositories.rajtech git git@github.com:pawarrajendra200/magento-modules.git
 ### Install the Extension using Composer
 composer require tech-raj/order-publisher-queue
 ### Enable the Extension
