@@ -2,6 +2,7 @@
     "repositories": [
     {
         "type": "package",
+        "name": "rajtech magento module",
         "package": {
             "name": "rajtech magento module",
             "version": "1.0",
