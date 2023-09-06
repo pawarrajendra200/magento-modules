@@ -2,9 +2,10 @@
     "repositories": [
     {
         "type": "package",
-        "name": "rajtech magento module",
+        "name" : "raj-tech/magento-modules",
+        "description" : "Raj tech package are combination of magento module",
         "package": {
-            "name": "rajtech magento module",
+            "name": "raj-tech/mage-package",
             "version": "1.0",
             "source": {
                 "url": "https://github.com/pawarrajendra200/magento-modules.git",
