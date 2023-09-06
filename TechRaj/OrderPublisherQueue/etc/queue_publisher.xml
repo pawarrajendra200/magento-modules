@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Queue publisher xml file
+*
+* @author Rajendra Pawar
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/publisher.xsd">
+    <publisher topic="rajtech_order_queue">
+        <connection name="amqp" exchange="magento" />
+    </publisher>
+</config>

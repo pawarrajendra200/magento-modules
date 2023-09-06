@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Queue consumer xml file
+*
+* @author Rajendra Pawar
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/consumer.xsd">
+    <consumer name="rajtech_order_queue" queue="rajtech_order_queue" connection="amqp"
+              handler="TechRaj\OrderPublisherQueue\Model\Order\Consumer::processMessage"/>
+</config>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Queue topology xml file
+*
+* @author Rajendra Pawar
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/topology.xsd">
+    <exchange name="magento" type="topic" connection="amqp">
+        <binding id="rajtechOrderConsumer" topic="rajtech_order_queue" destinationType="queue"
+                 destination="rajtech_order_queue"/>
+    </exchange>
+</config>
