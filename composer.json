@@ -1,20 +1,27 @@
 {
-    "repositories": [
-    {
-        "type": "package",
-        "name" : "raj-tech/magento-modules",
-        "description" : "Raj tech package are combination of magento module",
-        "package": {
-            "name": "raj-tech/mage-package",
-            "version": "1.0",
-            "source": {
-                "url": "https://github.com/pawarrajendra200/magento-modules.git",
-                "type": "git",
-                "reference": "main"
-            }
+    "name": "tech-raj/order-publisher-queue",
+    "description": "A Magento 2 module that create a order publisher queue using",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "keywords": [
+        "magento 2",
+        "techraj",
+        "tech-raj",
+        "magento 2 techraj"
+    ],
+    "authors": [
+        {
+            "name": "Rajendra pawar",
+            "email": "pawarrajendra200@gmail.com",
+            "homepage": "",
+            "role": "Magento developer"
         }
-    }],
-    "require" : {
-      "tech-raj/order-publisher-queue": "1.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "TechRaj\\OrderPublisherQueue\\": ""
+        }
     }
 }
