@@ -1,16 +1,18 @@
-"repositories": [
 {
-    "type": "package",
-    "package": {
-        "name": "rajtech magento module",
-        "version": "1.0",
-        "source": {
-            "url": "https://github.com/pawarrajendra200/magento-modules.git",
-            "type": "git",
-            "reference": "main"
+    "repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "rajtech magento module",
+            "version": "1.0",
+            "source": {
+                "url": "https://github.com/pawarrajendra200/magento-modules.git",
+                "type": "git",
+                "reference": "main"
+            }
         }
+    }],
+    "require" : {
+      "tech-raj/order-publisher-queue": "1.0"
     }
-}],
-"require" : {
-  "tech-raj/order-publisher-queue": "1.0"
 }
